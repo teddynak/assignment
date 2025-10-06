@@ -1,0 +1,51 @@
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin: auto;
+    
+}
+
+.sectionstyle{
+    float: left;
+    margin-left:50px;
+    width: 30%;
+}
+
+.imglady{
+    width: 30%;
+    height: auto;
+}
+.imgnature{
+    width: 40px;
+    height: auto;
+}
+
+img{
+    border-radius: 20%;
+    box-shadow: 40px 40px 40px #888888;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 5px 10px 18px #888888;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+button:hover{
+    background-color: green;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 5px 10px 18px #555555;
+    transform: scale(1.1);
+}
